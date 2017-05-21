@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+      </style>
     <style type="text/css">
       @font-face {
       src:URL("Font/DK Jambo.otf");
@@ -14,20 +16,19 @@
       src:URL("Font/armyrangers.ttf");
       font-family:army;
       }
-	  
-	  html,body
-	  {
-	  height: 100%;
+      html,body
+      {
+      height: 100%;
       margin: 0;
-	  }
-	  
+      }
       .slide {
       left:190px;
       width:1620px;
       height:130%;
       top:150px;
-      background:URL(section.jpg);
-      background-size: cover;
+      /*background:URL(section.jpg);*/
+      /*background-size: cover;*/
+          background-color: black;
       }
       .image {
       width:620px;
@@ -239,11 +240,11 @@
       .token.entity {
       cursor: help;
       }
-    </style>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>TKPPL</title>
-    <link rel="icon" href="title.gif">
+    </style>    
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">    
+    <title>TKPPL</title>    
+    <link rel="icon" href="title.gif">    
     <script language="javascript">
       var titletext="Technology 3D Printer"
       var repeat=true;    // SET TO true TO REPEAT, false TO "TYPE" OUT TITLE ONLY ONCE.
@@ -261,43 +262,43 @@
       window.onload=function(){
       if(!document.layers)set('scrolltitle()',1000);
       }
-    </script>
-    <script src="suaraaja.js"></script>
-    <script type="text/javascript">alert("Tugas TKPPL Teknologi 3D Printer 2015");</script>
+    </script>    
+    <script src="suaraaja.js"></script>    
+    <script type="text/javascript">alert("Tugas TKPPL Teknologi 3D Printer 2015");</script>    
     <script>
-      function createsoundbite(e){var t=document.createElement("audio");if(t.canPlayType){for(var n=0;n<arguments.length;n++){var r=document.createElement("source");r.setAttribute("src",arguments[n]);if(arguments[n].match(/\\.(\w+)$/i))r.setAttribute("type",html5_audiotypes[RegExp.$1]);t.appendChild(r)}t.load();t.playclip=function(){t.pause();t.currentTime=0;t.play()};return t}else{return{playclip:function(){throw new Error("Your browser doesn't support HTML5 audio unfortunately")}}}}var html5_audiotypes={mp3:"audio/mpeg",mp4:"audio/mp4",ogg:"audio/ogg",wav:"audio/wav"};
+      function createsoundbite(e){var t=document.createElement("audio");if(t.canPlayType){for(var n=0;n<arguments.length;n++){var r=document.createElement("source");r.setAttribute("src",arguments[n]);if(arguments[n].match(/\\\.(\w+)$/i))r.setAttribute("type",html5_audiotypes[RegExp.$1]);t.appendChild(r)}t.load();t.playclip=function(){t.pause();t.currentTime=0;t.play()};return t}else{return{playclip:function(){throw new Error("Your browser doesn't support HTML5 audio unfortunately")}}}}var html5_audiotypes={mp3:"audio/mpeg",mp4:"audio/mp4",ogg:"audio/ogg",wav:"audio/wav"};
       var clicksound=createsoundbite("score.ogg");
       var mouseoversound=createsoundbite("click.ogg");
     </script>
-  </head>
+  </head>  
   <body>
     <article>
       <section class="slide">
-        <div class="image"><img src="3D printer.jpg" width="600" height="480/"></div>
+        <div class="image"><img src="3D printer.jpg" width="600" height="480/"></div>        
         <div class="bagian">
           <h2 class="bullet">
             <ul>
               <li>
                 <h3 class="text1">Technology</h3>
-              </li>
+              </li>              
               <li>
                 <h3 class="text2">3-D Printer</h3>
-              </li>
+              </li>              
               <li>
                 <h3 class="text3">2015</h3>
               </li>
             </ul>
           </h2>
-        </div>
-        <div class="section"><img id="prev1" src="go-previous-orange.png" width="100" height="100"><a href="#2" onClick="clicksound.playclip()" onMouseOver="mouseoversound.playclip()"><img id="next" src="go-next-orange.png" width="100" height="100"></a></div>
+        </div>        
+        <div class="section"><img id="prev1" src="go-previous-orange.png" width="100" height="100"><a href="#2" onclick="clicksound.playclip()" onmouseover="mouseoversound.playclip()"><img id="next" src="go-next-orange.png" width="100" height="100"></a></div>        
         <audio id="soundBeep" preload="auto">
-          <source src="click.mp3">
+          <source src="click.mp3">          
           <source src="click.ogg">
-        </audio>
+        </audio>        
         <audio id="soundBeep" preload="auto">
-          <source src="score.mp3">
+          <source src="score.mp3">          
           <source src="score.ogg">
-        </audio>
+        </audio>        
         <script>
           var soundBeep = $("#soundBeep")[0];
           $("nav a").hover(function() {
@@ -306,8 +307,8 @@
           soundBeep.pause();
           });
         </script>
-      </section>
-      <section></section>
+      </section>      
+      <section></section>      
       <section class="slide">
         <script language="JavaScript">
           var text="Sekian dan Terima Kasih <br> - The End -";
@@ -344,10 +345,10 @@
           type();
           }
         </script><b>
-          <div id="textDestination" style="font: 50px arial; color:#1cea00; background:#000;border-radius:5px;margin: 0px;padding:5px 10px 5px 10px;"></div></b>
+          <div id="textDestination" style="font: 50px arial; color:#1cea00; background:#000;border-radius:5px;margin: 0px;padding:5px 10px 5px 10px;"></div></b>        
         <script language="JavaScript">javascript:startTyping(text, 50, "textDestination");</script>
       </section>
-    </article>
+    </article>    
     <script src="build/build.js"></script>
   </body>
 </html>
