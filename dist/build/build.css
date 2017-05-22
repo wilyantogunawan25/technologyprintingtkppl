@@ -10,6 +10,17 @@ font-family:Star;
 }
 
 @font-face {
+src:URL("Font/Tropical-Forest.otf");
+font-family:pateglamt;
+}
+
+.roman 
+{
+      font-family:pateglamt;
+      color:white;
+}
+
+@font-face {
 src:URL("Font/KA.ttf");
 font-family:Star2;
 }
