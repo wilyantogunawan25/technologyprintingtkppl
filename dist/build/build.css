@@ -18,6 +18,12 @@ font-family:pateglamt;
 {
       font-family:pateglamt;
       color:white;
+      color:white;
+       text-shadow:
+    -1px -1px 0 blue,
+    1px -1px 0 blue,
+    -1px 1px 0 blue,
+    1px 1px 0 blue;
 }
 
 @font-face {
