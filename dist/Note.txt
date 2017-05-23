@@ -1,0 +1,16 @@
+bagian halaman kedua:
+- tulisan tahun 1984, menjadi tulisan yang pertama masuk.
+- kemudian, gambarnya menyusul
+- sisanya menyusul setelah gambar
+- tombolnya belum ada di tempat
+
+menurutku suara tombolnya kurang bagus, bagusan buku atau yang lain mungkin.
+
+Bagian halaman ketiga :
+Belum terpikir apa yang mau dibuat, soalnya belum ada gambaran datanya yang jelas
+
+Aku ada tambah satu halaman Stereoligraphy, halaman itu biar ku handle aja.
+
+Saranku :
+1. Untuk tombol maju mundur mungkin bagus untuk dipake, tapi kalo bisa, tombol aja yang bisa diklik pake keyboard gabisa, soalnya, nanti jadi jelek atau kayak gasejalan dengan yang ada di layar.
+2. Untuk tulisan nanti kupikiri ulang kurang cantik kulihat

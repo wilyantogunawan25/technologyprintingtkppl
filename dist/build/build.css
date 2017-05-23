@@ -21,6 +21,11 @@ font-family:pateglamt;
 src:URL("Font/KA.ttf");
 font-family:Star2;
 }
+
+@font-face {
+src:URL("Font/Island_Roman.ttf");
+font-family:Star3;
+}
      
 	 html
 	 {
@@ -161,7 +166,7 @@ font-family:Star2;
 	/*mengatur bagian isi pada slide 2 */
 		.roman 
 		{
-      font-family:pateglamt;
+      font-family:Star3;
       color:white;
       color:white;
        text-shadow:
@@ -270,5 +275,28 @@ font-family:Star2;
       .token.entity {
       cursor: help;
       }
-   
-
+img#GambarCharles{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 100px 10px 10px 10px;
+    border-radius: 100%;
+}
+h1#Sub{
+    text-align: center;
+}
+h2#TeksCharles{
+    margin: 20px;
+    text-align: justify;
+    text-indent: 2em;
+}
+h1#SubStereo{
+    font-family: Star3;
+    text-transform: uppercase;
+}
+img#stereo{
+    height: 250px;
+}
+div.section#hlm2{
+    margin-top: 40px;
+}
