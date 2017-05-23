@@ -4,28 +4,19 @@
  * @author ocodia
  */
 
+/* untuk kata technology di slide 1 */
 @font-face {
 src:URL("Font/Taurus-Mono-Outline-Bold.otf");
 font-family:Star;
 }
 
+/* untuk isi di slide 2*/
 @font-face {
-src:URL("Font/Tropical-Forest.otf");
+src:URL("Font/Tropical-Forest.ttf");
 font-family:pateglamt;
 }
 
-.roman 
-{
-      font-family:pateglamt;
-      color:white;
-      color:white;
-       text-shadow:
-    -1px -1px 0 blue,
-    1px -1px 0 blue,
-    -1px 1px 0 blue,
-    1px 1px 0 blue;
-}
-
+/* untuk kata 3d printer di slide 1 */
 @font-face {
 src:URL("Font/KA.ttf");
 font-family:Star2;
@@ -35,10 +26,13 @@ font-family:Star2;
 	 {
 	 background-color:#CCCCCC;
 	 }
+	 
+	 /*mengatur ukuran pada div supaya buat slide ditengah*/
 	 .a {
 	 background-color:#CCCCCC;
 	 }
 	 
+	 /*mengatur ukuran pada slide */
 	 .data
 	 {
 	margin: auto;
@@ -51,10 +45,12 @@ font-family:Star2;
 	 background-color:white;
 	 }
 	 
+	 
+	 /*mengatur kata technology di slide 1 */
 	 .kata 
 	 {
 	 margin:auto;
-	 padding-top:10%;
+	 padding-top:11%;
 	 padding-left:35%;
 	 padding-right:40%;
 	 padding-bottom:0%;
@@ -62,10 +58,12 @@ font-family:Star2;
 	 color:cornflowerblue;
 	 }
 	 
+	 /*mengatur kata 3 d printer di slide 1 */
 	 .kata2
 	 {
+	  font-size:2em;
 	  margin:auto;
-	 padding-top:4%;
+	 padding-top:2%;
 	 padding-left:0%;
 	 padding-right:0%;
 	 padding-bottom:0%;
@@ -75,52 +73,105 @@ font-family:Star2;
     -1px -1px 0 white,
     1px -1px 0 white,
     -1px 1px 0 white,
-    1px 1px 0 white;
-	
+	1px 1px 0 white;
+
 	-webkit-animation-name: blinker;
--webkit-animation-duration: 1s;
--webkit-animation-timing-function: linear;
--webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
 
--moz-animation-name: blinker;
--moz-animation-duration: 1s;
--moz-animation-timing-function: linear;
--moz-animation-iteration-count: infinite;
+	-moz-animation-name: blinker;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
 
-animation-name: blinker;
-animation-duration: 1s;
-animation-timing-function: linear;
-animation-iteration-count: infinite;
-}
-@-moz-keyframes blinker {
-0% { opacity: 1.0; }
-50% { opacity: 0.0; }
-100% { opacity: 1.0; }
-}
-@-webkit-keyframes blinker {
-0% { opacity: 1.0; }
-50% { opacity: 0.0; }
-100% { opacity: 1.0; }
-}
-@keyframes blinker {
-0% { opacity: 1.0; }
-50% { opacity: 0.0; }
-100% { opacity: 1.0; }
-}
-
-	
+	animation-name: blinker;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 	}
-	 font-size:2.5em;
+	
+	@-moz-keyframes blinker {
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+	}
+	@-webkit-keyframes blinker {
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+	}
+	@keyframes blinker {
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+	}	
+	
+	
+	
 	 
-	 }
-	 
-	 .image
-	 {
-	 margin-left:40%;
-	 margin-top:-15%;
-	 margin-bottom:0%;
-	 margin-right:0%;
-	 }
+
+	  /*mengatur tombol next saat di arahkan*/
+      #next:hover
+      {
+      opacity:0.9;
+      -webkit-animation-name: blinker;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-timing-function: linear;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-name: blinker;
+      -moz-animation-duration: 1s;
+      -moz-animation-timing-function: linear;
+      -moz-animation-iteration-count: infinite;
+      animation-name: blinker;
+      animation-duration: 1s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      }
+      @-moz-keyframes blinker {
+      0% { opacity: 1.0; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1.0; }
+      }
+      @-webkit-keyframes blinker {
+      0% { opacity: 1.0; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1.0; }
+      }
+      @keyframes blinker {
+      0% { opacity: 1.0; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1.0; }
+      }
+		
+		/*mengatur tombol previous*/ 
+	  #prev1
+      {
+      opacity:0.4;
+      cursor:not-allowed;
+      }
+	  
+	  
+	  /*mengatur posisi kedua tombol prev dan next*/
+      .section {
+      margin-left:0px;
+      margin-top:11%;
+      }
+	  
+	/*mengatur bagian isi pada slide 2 */
+		.roman 
+		{
+      font-family:pateglamt;
+      color:white;
+      color:white;
+       text-shadow:
+    -1px -1px 0 blue,
+    1px -1px 0 blue,
+    -1px 1px 0 blue,
+    1px 1px 0 blue;
+		}
+
+
 	 
       code[class*="language-"],
       pre[class*="language-"] {
