@@ -361,5 +361,56 @@ font-family:Star2;
       .token.entity {
       cursor: help;
       }
-   
-
+img#GambarCharles{
+    border-radius: 100%;
+    width: 200px;
+    margin-top: 30px;
+}  
+h2#TeksCharles{
+    float: left;
+    text-align: justify;
+    padding-right: 30px;
+    text-indent: 2em;
+}
+.isikiri{
+    width: 300px;
+    float: left;
+}
+.isikanan{
+    width: 600px;
+    float: right;
+}
+.judul#tengah{
+    padding-top: 200px;
+}
+.bagKiri{
+    width: 450px;
+    float: left;
+    text-align: justify;
+    text-indent: 2em;
+    padding: 10px;
+}
+#Gambar92{
+    width: 200px;
+    float: left;
+    margin-right: 5px;
+}
+.judul{
+    text-align: center;
+}
+.sejarah{
+    padding: 0 50px;
+    text-indent: 2em;
+}
+h3#judul{
+    text-align: left;
+}
+.sejarah#kiri{
+    text-align: left;
+}
+.sejarah#kanan{
+    text-align: right;
+}
+.sejarah#tengah{
+    text-align: center;
+}
