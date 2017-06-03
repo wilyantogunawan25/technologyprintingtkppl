@@ -60,7 +60,6 @@ font-family:Star2;
 	 background-size:cover;
 	  background-color:white;
 	 }
-	 
 	 	 .data3
 	 {
   	margin: auto;
@@ -246,6 +245,19 @@ font-family:Star2;
     1px -1px 0 blue,
     -1px 1px 0 blue,
     1px 1px 0 blue;
+		}
+		.data2 h4 
+		{float:center;
+		margin-top: 150px;		
+      font-family:Arial;
+      color:lightblue;
+      color:lightblue;
+      font-size: 40px;
+      text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 		}
 		
 		/*mengatur bagian isi pada slide 2 */
