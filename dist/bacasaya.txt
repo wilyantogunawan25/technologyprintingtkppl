@@ -29,3 +29,11 @@ Terus yang tulisan 2016 ny masih belum ada warna
 2. untuk aldi sama reza, ingat halaman terakhir yang kayak janji kemarin
 3. kalo ada yang punya usul buat animasinya, kabari ya. masih flat banget presentasi kita.
 4. aku ada masukan, gimana kalo kita rapiin folder kita, kulihat berantakan kali didepan wak.
+
+Semua Saran Baru :
+1. untuk angka tahun 2016 kasi stylenya.
+2. halaman kedua, masukkan animasi yang kemaren kau kasi ke aku
+3. halaman sejarah, tinggal masukin javascript aja kedalam sesuai dengan yang kau tunjukkan di url tadi.
+4. terus untuk semua sub judul, sesuaikan semua sama animasi yang kemaren kau kasi.
+5. video, kasi animasi flip yang kemaren
+6. untuk jenis tulisan nanti aku cari2 lagi

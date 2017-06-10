@@ -426,3 +426,17 @@ h3#judul{
 .sejarah#tengah{
     text-align: center;
 }
+.content{
+	width: 900px;
+}
+.kolom1{
+	width: 280px;
+	margin: 10px;
+	float: left;
+}
+h4#JudulTahun{
+	margin: 0;
+}
+.kolom1:hover{
+	box-shadow: 0px 2px 50px green;
+}
