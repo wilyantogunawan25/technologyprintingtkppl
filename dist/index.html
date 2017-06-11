@@ -21,7 +21,7 @@
 	});
 </script>
 
-
+<script src="build/js-image-slider.js" type="text/javascript"></script>
 	
     <script language="javascript">
       var titletext="Technology 3D Printer"
@@ -54,6 +54,7 @@
 	 
 <body>
     <article>
+<!--bagian pertama -->
 	 	<div align="center" class="a">
 		    <section class="data">
 		        <ul>
@@ -62,218 +63,192 @@
                     <li><h2 class = "angka1">2016</h2></li>
         		</ul>		
 			    <div class="section">
-                    <img id="prev1" src="go-previous-orange.png" width="41" height="41">
-                    <a href="#2" onClick="clicksound.playclip()" onMouseOver="mouseoversound.playclip()">
-                    <div class="ab">
-                        <img id="next" src="go-next-orange.png" width="40" height="40" @click="show = !show">
-                    </div>
-                    </a>
-                </div>     
-                <audio id="soundBeep" preload="auto">
-                    <source src="click.mp3">          
-                    <source src="click.ogg">
-                </audio>        
-                <audio id="soundBeep" preload="auto">
-                  <source src="score.mp3">          
-                  <source src="score.ogg">
-                </audio>        
-                <script>
-                  var soundBeep = $("#soundBeep")[0];
-                  $("nav a").hover(function() {
-                  soundBeep.play();
-                  }, function(){
-                  soundBeep.pause();
-                  });
-                </script>
+                     
 		    </section>
 		</div>
 		
+<!--bagian Kedua -->
         <div align="center" class="a">
             <section class ="data2">
-                <ul>
-                    <div class="judul">
-                        <li><h4><i>Sejarah 3D Printing</i></h4></li>
-                    </div>
-                 </ul>
+               
+											<div class="sp-container">
+												
+														<h2 class="frame-5"><span>Sejarah</span> <span>3D</span> <span>Printing</                                              span></h2>
+												</div>		
              </section>
              </div>
-       
+			    
         <div align="center" class="a">
             <section class ="data2">
 		        <ul>
                     <li></li>
-                    <div class="content">
-                      <div class="kolom1">
-                        <h4 id="JudulTahun">Tahun -</h4>
-                        <img src="bild4.jpg" width="280px" height="300px">
-                      </div>
-                      <div class="kolom1">
-                        <h4 id="JudulTahun">Tahun -</h4>
-                        <img src="bild4.jpg" width="280px" height="300px">
-                      </div>
-                      <div class="kolom1">
-                        <h4 id="JudulTahun">Tahun -</h4>
-                        <img src="bild4.jpg" width="280px" height="300px">
-                      </div>
+                    <div class="judul">
+                        <li><h1 class="roman" id="Sub">Tahun 1984</h1></li>
+                    </div>
+                    <div class="isikiri">
+                        <li id="kiri"><img src="bild4.jpg" alt="" id="GambarCharles"></li>
+                    </div>
+                    <div class="isikanan">
+                        <li id="kanan"><h2 class="roman" id="TeksCharles">Charles Hull  ( salah satu pendiri  3D Systems) menciptakan teori stereolithography yaitu proses pencetakan yang memungkinkan penyataaan objek 3D yang akan dibuat dari data digital. Teknologi ini digunakan untuk membuat model 3D dari gambar dan memungkinkan pengguna untuk menguji desain sebelum masuk ke dalam program manufaktur.</h2></li>
                     </div>
                 </ul>
             </section>
         </div>
+        
+		
         <div align="center" class="a">
-            <section class ="data2">
-            <ul>
-                    <li></li>
-                    <div class="content">
-                      <div class="kolom1">
-                        <h4 id="JudulTahun">Tahun -</h4>
-                        <img src="bild4.jpg" width="280px" height="300px">
-                      </div>
-                      <div class="kolom1">
-                        <h4 id="JudulTahun">Tahun -</h4>
-                        <img src="bild4.jpg" width="280px" height="300px">
-                      </div>
-                      <div class="kolom1">
-                        <h4 id="JudulTahun">Tahun -</h4>
-                        <img src="bild4.jpg" width="280px" height="300px">
-                      </div>
-                    </div>
-                </ul>
-            </section>
-        </div>
-        <div align="center" class="a">
-            <section class ="data2">
+            <section class ="data">
                 <ul>
                     <li></li>
-                    <div class="content">
-                      <div class="kolom1">
-                        <h4 id="JudulTahun">Tahun -</h4>
-                        <img src="bild4.jpg" width="280px" height="300px">
-                      </div>
-                      <div class="kolom1">
-                        <h4 id="JudulTahun">Tahun -</h4>
-                        <img src="bild4.jpg" width="280px" height="300px">
-                      </div>
-                      <div class="kolom1">
-                        <h4 id="JudulTahun">Tahun -</h4>
-                        <img src="bild4.jpg" width="280px" height="300px">
-                      </div>
+                    <div class="bagKiri">
+                        <div class="judul">
+                            <li><h1 class="roman">Tahun 1992</h1></li>
+                        </div>
+                        <div class="isi">
+                            <li id="kiri"><img src="bild4.jpg" alt="" id="Gambar92"></li>
+                            <li><h2 class="roman">Pertama kalinya mesin Stereolithographic Apparatus (SLA) diproduksi oleh 3D Systems. Proses mesin menggunakan laser UV dalam pemadatan photopolymer, cairan dengan viskositas dan warna yang membuat bagian tiga dimensi lapis demi lapis.</h2></li>
+                        </div>
+                    </div>
+                    <div class="bagKiri">
+                        <div class="judul">
+                            <li><h1 class="roman">Tahun 1999</h1></li>
+                        </div>
+                        <div class="isi">
+                           <li id="kiri"><img src="bild4.jpg" alt="" id="Gambar92"></li>
+                            <li><h2 class="roman">Pertama kalinya Organ buatan ditanamkan pada manusia. Teknologi ini dikembangkan oleh para ilmuwan di Wake Forest Institute untuk Pengobatan Regeneratif , membuka jalan untuk berkembangnya strategi lain untuk organ rekayasa termasuk mencetaknya.</h2></li>
+                        </div>
                     </div>
                 </ul>
-            </section>
+            </section>  
         </div>
+
         <div align="center" class="a">
-            <section class ="data2">
-            <ul>
+            <section class ="data" >
+                <ul>
                     <li></li>
-                    <div class="content">
-                      <div class="kolom1">
-                        <h4 id="JudulTahun">Tahun -</h4>
-                        <img src="bild4.jpg" width="280px" height="300px">
-                      </div>
-                      <div class="kolom1">
-                        <h4 id="JudulTahun">Tahun -</h4>
-                        <img src="bild4.jpg" width="280px" height="300px">
-                      </div>
-                      <div class="kolom1">
-                        <h4 id="JudulTahun">Tahun -</h4>
-                        <img src="bild4.jpg" width="280px" height="300px">
-                      </div>
+                    <div class="sejarah"id="kiri">
+                        <li><h3 class="roman" id="judul">Tahun 2000</h3></li>
+                        <li><h4 class="roman">Para ilmuan medis membuat miniatur ginjal fungsional yang mampu mengencerkan urine pada hewan.  Pengembangan dan riset dilakukan oleh  Wake Forest Institute untuk Regeneratif Medis  yang bertujuan untuk cetak organ dan jaringan menggunakan teknologi cetak 3D</h4></li>
+                    </div>
+                    <div class="sejarah"id="tengah">
+                        <li><h3 class="roman">Tahun 2005</h3></li>
+                        <li><h4 class="roman">Dr. Adrian Bowyer di University of Bath mendirikan RepRap, sebuah inisiatif open source untuk membangun printer 3D yang dapat mencetak sebagian besar komponennya sendiri. Visi dari proyek ini adalah untuk mendemokratisasikan manufaktur dengan harga murah dan mendistribusikan unit RepRap untuk individu di mana saja, serta memungkinkan mereka untuk menciptakan produk sehari-hari mereka sendiri</h4></li>
+                    </div>
+                    <div class="sejarah"id="kanan">
+                        <li><h3 class="roman">Tahun 2006</h3></li>
+                        <li><h4 class="roman">Pertama kalinya mesin  SLS (Selective Laser Sintering) menjadi layak dipakai dan muncul untuk publik.  Mesin jenis ini menggunakan laser untuk memadukan bahan menjadi produk 3D. Ini adalah terobosan baru untuk kustomisasi massal dan on-demand pembuatan bagian industri  serta prostesis. Pada tahun yang sama Objet (penyedia  sistem 3D  Printing dan bahan)  menciptakan mesin yang mampu mencetak dalam beberapa bahan termasuk elastomer dan polimer. Mesin ini memungkinkan membuat single parts dengan berbagai variasi kepadatan dan sifat material.</h4></li>
                     </div>
                 </ul>
-            </section>
-        </div>    
+            </section>  
+        </div>
+
+        <div align="center" class="a">
+            <section class ="data">
+                <ul>
+                    <li><h3 class="roman">2008 – Pertama kalinya replikasi printer 3D muncul</h3></li>
+                    <li><h4 class="roman">Berikut diluncurkan pada tahun 2005 tentang Proyek  RepRap yang  dirilis oleh Darwin. Pertama kalinya replikasi printer 3D muncul yang mampu mencetak mayoritas komponen sendiri dan memungkinkan pengguna yang sudah memiliki satu untuk membuat printer lagi untuk teman-temannya.</h4></li>
+
+                    <li><h3 class="roman">2008 – Terobosan baru untuk prostesis</h3></li>
+                    <li><h4 class="roman">Pertama kalinya orang berjalan dengan  kaki palsu yang dicetak oleh printer 3D baik bagian lutut, kaki, soket, dll. Kaki palsu tersebut dicetak dalam struktur yang kompleks yang sama dengan aslinya tanpa perakitan apapun. Pengembangan dan panduan penciptaan Inovasi dipesan terlebih dahulu dan disesuaikan dengan kakinya.</h4></li>
+
+                    <li><h3 class="roman">2009 – KIT DIY untuk  printer 3D mulai dipasarkan</h3></li>
+                    <li><h4 class="roman">Makerbot Industries, sebuah perusahaan hardware open-source untuk printer 3D, mulai menjual kit DIY yang memungkinkan pembeli untuk membuat printer 3D mereka sendiri dan produk.</h4></li>
+                </ul>
+            </section>  
+        </div>
+
     <div align="center" class="a">
         <section class ="data">
-            <h1 class="roman">Pengertian 3D Printing</h1>
+            <ul>
+                <div class="sejarah"id="kanan">
+                    <li><h3 class="roman">Tahun 2010</h3></li>
+                    <li><h4 class="roman">Para ilmuan dari University of Southampton bidang desain dan penerbangan membangun pesawat pertama  dengan printer 3D. Pesawat tanpa awak ini dibangun dalam tujuh hari dengan anggaran sebesar £ 5.000.</h4></li>
+                </div>
+                <div class="sejarah"id="kiri">
+                    <li><h3 class="roman">Tahun 2011</h3></li>
+                    <li><h4 class="roman">Kor Ecologic memperkenalkan Urbee yang ramping dan ramah lingkungan,  prototipe mobil ini dicetak menggunakan printer 3D dengan body lengkap pada konferensi TEDxWinnipeg di Kanada.</h4></li>
+                </div>
+                <div class="sejarah"id="kanan">
+                    <li><h3 class="roman">Tahun 2011</h3></li>
+                    <li><h4 class="roman">Layanan cetak 3D yang pertama dalam dunia 3D printing yang menawarkan emas dan perak sebagai bahan pencetakan. Hal ini berpotensi membuka opsi manufaktur baru dan lebih murah untuk desainer perhiasan.</h4></li>
+                </div>
+                <div class="sejarah"id="kiri">
+                    <li><h3 class="roman">Tahun 2012</h3></li>
+                    <li><h4 class="roman">Dokter dan insinyur di Belanda menggunakan printer 3D buatan  LayerWise untuk mencetak prostetik rahang bawah, yang kemudian ditanamkan ke seorang wanita berusia 83 tahun menderita infeksi tulang kronis. Teknologi ini saat ini sedang dieksplorasi untuk mempromosikan pertumbuhan jaringan tulang baru.</h4></li>
+                </div>
+            </ul>
+        </section>  
+    </div>
+    
+<!--bagian Ketiga -->
+	
+			 <div align="center" class="a">
+            			<section class ="data2">
+               
+											<div class="sp-container">
+												
+														<h2 class="frame-5"><span>Pengertian</span> <span>3D</span> <span>Printing</                                              span></h2>
+												</div>		
+             </section>
+             </div>
+       
+	   <div align="center" class="a">
+            			<section class ="data2">
             <h2 class="roman">
                 3D Printing atau dikenal juga sebagai Additive Layer Manufacturing adalah proses membuat objek padat 3 dimensi atau bentuk apapun dari model digital. Cara kerjanya hampir sama dengan printer laser dengan tehnik membuat objek dari sejumlah layer/ lapisan yang masing-masing dicetak di atas setiap lapisan lainnya.
             </h2>
         </section>  
     </div>
-    <div align="center" class="a">
+	
+<!--bagian Keempat -->
+		<div align="center" class="a">
             <section class ="data2">
-                <ul>
-                    <div class="judul">
-                        <li><h4><i>Cara Kerja dan Mekanisme Pada 3D Printing</i></h4></li>
-                    </div>
-                 </ul>
+              			<div class="sp-container">
+												
+														<h2 class="frame-5"><span>Mekanisme</span> <span>3D</span> <span>Printing</                                              span></h2>
+												</div>
              </section>
              </div>
-    <div align="center" class="a">
-        <section class ="data">
-            <h3 class="roman">
-               Secara umum cara kerja printer 3D dibagi menjadi dua yaitu Printing dan Finishing. Printing terjadi saat jika telah selesai didesain 3D Robotnya Anda bisa langsung print di printer 3D. Proses mencetak pun dimulai, lamanya mencetak tergantung besar dan ukuran model. Kemudian Finishing, setelah dicetak, proses finishing pun dilakukan, dengan melihat hasil cetakan dari desain 3D robot yang Anda buat. </h3>
-                <h3 class="roman">
-             Kemudian mekanisme diawali dari Stereolithography (SLA) adalah teknik pertama untuk 3D Printing. Caranya adalah menambahkan layer terus menerus pada bahan photopolymer menuju keatas. Material yang digunakan pada awalnya adalah liquid (cairan) dan akan mengeras ketika liquid tersebut terkena sinar ultraviolet.</h3>
 
-        </section>  
-    </div>
-     <div align="center" class="a">
-        <section class ="data">
-             <h3 class="roman">
-             Lalu Digital Light Processing (DLP), pada proses penyinaran digital, objek pada  awalnya berbentuk liquid yang penuh. Sebagian dari liquid tersebut akan disinari, yang tentu saja akan mengeraskan liquid tersebut, lalu objek yang mengeras akan tenggelam kebawah dan menaikkan liquid selanjutnya. Proses ini terus menerus dilakukan hingga objek 3D tersebut berhasil dibuat.</h3>
-              <h3 class="roman">
-            Kemudian Selective Laser Sintering (SLS), menggunakan tenaga yang sangat tinggi untuk menggabungkan berbagai material, seperti plastik, gelas, keramik, dan metal menjadi output 3D.Dan Electron Beam Melting (EBM), adalah proses dari 3D Printing untuk bahan metal. Prosesnya di sebuah vakum dan memulai prosesnya dengan menyebarkan sebuah layer dari metal powser (lebih sering menggunakan titanium). Electron beam akan mencairkan powder menjadi layer yang keras. Objek yang dibuat dengan teknik ini akan sangat kuat.</h3>
-        </section>  
-    </div>
-
-     <div align="center" class="a">
-        <section class ="data">
-            <h3 class="roman">
-            Setelah itu tahap selanjutnya adalah Multi Jet Modelling (MJM) mempunyai cara kerja yang sama dengan inkjet printer. Ia menyebarkan sebuah layer dari resin powder dan menyemprotkan sebuat lem yang mempunyai berbagai warna dan akan mengeras pada satu layer. Multi Jet Modelling sangatlah berguna karena sangat cepat dan mendukung penyediaan warna.</h3>
-             <h3 class="roman">
-           Dan yang terakhir adalah Fused Deposition Modelling (FDM), menggunakan bahan nozzle yang dipanaskan dan akan melelehkan bahan seperti plastik pada hasil vertikal yang diatur oleh komputer. Ketika material keluar dari nozzle, material tersebut akan mengeras.</h3>
-           </section>
-           </div>
 	
     <div align="center" class="a">
-        <section class ="data">
-            <h1 class="roman">Cara Kerja 3D Printing</h1>
-            <video width="320" height="240" controls click>
-              <source src="Video/3D Printing.mp4" type="video/mp4">
-            </video>
+        <section class ="data4">
+		<div class="ca">
+			<div class="sp-container3">
+					<div id="rumah">
+						<div class="flipper">
+								<div class="depan">
+								</div>
+								<div class="belakang">
+									<video width="420" height="315" controls click id="ta" >
+										<source src="Video/3D Printing.mp4" type="video/mp4">
+										</video>
+								</div>
+							</div>
+							</div>
+			</div>				
+		</div>				
         </section>  
 	 </div>
-	 <div align="center" class="a">
-        <section class ="data3">
-        <h1 class="roman" id="Sub">Contoh Hasil Produk 3D Printing</h1>
-        <div id="quad">
-        
-               <figure>
-                <img src="produk3D1.jpg" alt="produk3D1">
-                <figcaption>Wajah Manusia</figcaption>
-                </figure>
-                
-                <figure>
-                <img src="produk3D2.jpg" alt="produk3D2">
-                <figcaption>Wajah Manusia</figcaption>
-                </figure>
-                
-                <figure>
-                <img src="produk3D3.jpg" alt="produk3D3">
-                <figcaption>produk3D3</figcaption>
-                </figure>
-                
-                <figure>
-                <img src="produk3D5.jpg" alt="produk3D5">
-                <figcaption>produk3D5</figcaption>
-                </figure>
-        </div>
-                </section>
-                </div>
 
-				
-				
-        </section>
+<!--bagian Kelima -->
+		<div align="center" class="a">
+            <section class ="data2">
+              			<div class="sp-container">
+											
+								<h2 class="frame-5"><span>Jenis</span> <span>3D</span> <span>Printer</span></h2>
+												</div>
+             </section>
+             </div>
 
-	</div>
-		
-	 
+
 	  <div align="center" class="a">
         <section class ="data3">
-				<h1 class="roman" id="Sub">Jenis - Jenis 3D Printer</h1>
-				<div id="quad">
-				
+		<div id="ka">
+		<div class="sp-container2">
+		
+						<div id="quad">
+							
 							 <figure>
 							  <img src="UP-Plus-2-clean-cut.png" alt="UP-Plus-2-clean-cut">
 							  <figcaption>UP Plus-2 Clean Cut</figcaption>
@@ -292,91 +267,92 @@
 							  <figure>
 								<img src="FlashForge Finder.jpg" alt="FlashForge Finder">
 								<figcaption>FlashForge Finder</figcaption>
-</figure>
+							</figure>
+							</div>
 				</div>
+			</div>
                 </section>
                 </div>
-                <div align="center" class="a">
-            <section class ="data2">
-                <ul>
-                    <div class="judul">
-                        <li><h4><i>Teknik yang digunakan Pada 3D Printing</i></h4></li>
-                    </div>
-                 </ul>
-             </section>
-             </div>
-                <div align="center" class="a">
-            <section class ="data2">
-                <ul>
-                    <div class="judul#tengah">
-                            <li id="kiri"><h3 class="roman" id="TeksCharles">1.Stereolithography (SLA)</h3></li>
-                            <li id="kanan"><h3 class="roman" id="TeksCharles">Teknik pertama untuk 3D Printing. Caranya adalah menambahkan layer terus menerus pada bahan photopolymer menuju keatas. Material yang digunakan pada awalnya adalah liquid (cairan) dan akan mengeras ketika liquid tersebut terkena sinar ultraviolet.</h3></li>
-                            <li id="kiri"><h3 class="roman" id="TeksCharles">2.Digital Light Processing (DLP)</h3></li>
-                            <li id="kanan"><h3 class="roman" id="TeksCharles">Teknik yang hampir sama dengan SLA yang membuat bahan liquid mengeras dengan sinar ultraviolet. Tetapi, pada proses penyinaran digital, objek pada awalnya berbentuk liquid yang penuh. Sebagian dari liquid tersebut akan disinari, yang tentu saja akan mengeraskan liquid tersebut, lalu objek yang mengeras akan tenggelam kebawah dan menaikkan liquid selanjutnya. Proses ini terus menerus dilakukan hingga objek 3D tersebut berhasil dibuat.</h3></li>
-                    </div>
-                </ul>
-            </section>
-  			</div>
-  				<div align="center" class="a">
-            	<section class ="data2">
-                <ul>
-                    <div class="judul#tengah">
-                            <li id="kiri"><h3 class="roman" id="TeksCharles">3. Selective Laser Sintering (SLS)</h3></li>
-                            <li id="kanan"><h3 class="roman" id="TeksCharles">SLS menggunakan tenaga yang sangat tinggi untuk menggabungkan berbagai material, seperti plastik, gelas, keramik, dan metal menjadi output 3D.</h3></li>
-                            <li id="kiri"><h3 class="roman" id="TeksCharles">4. Electron Beam Melting (EBM)</h3></li>
-                            <li id="kanan"><h3 class="roman" id="TeksCharles">Proses dari 3D Printing untuk bahan metal. Prosesnya di sebuah vakum dan memulai prosesnya dengan menyebarkan sebuah layer dari metal powser (lebih sering menggunakan titanium). Electron beam akan mencairkan powder menjadi layer yang keras. Objek yang dibuat dengan teknik ini akan sangat kuat.</h3></li>
-                            <li id="kiri"><h3 class="roman" id="TeksCharles">5. Multi Jet Modelling (MJM)</h3></li>
-                            <li id="kanan"><h3 class="roman" id="TeksCharles">Mempunyai cara kerja yang sama dengan inkjet printer. Ia menyebarkan sebuah layer dari resin powder dan menyemprotkan sebuat lem yang mempunyai berbagai warna dan akan mengeras pada satu layer. Multi Jet Modelling sangatlah berguna karena sangat cepat dan mendukung penyediaan warna.</h3></li>
-                    </div>
-                </ul>
-            	</section>
-  				</div>
-  				<div align="center" class="a">
-            	<section class ="data2">
-                <ul>
-                    <div class="judul#tengah">
-                            <li id="kiri"><h3 class="roman" id="TeksCharles">6. Fused Deposition Modelling (FDM)</h3></li>
-                            <li id="kanan"><h3 class="roman" id="TeksCharles">Menggunakan bahan nozzle yang dipanaskan dan akan melelehkan bahan seperti plastik pada hasil outputnya. Nozzle tersebut akan berpindah secara horizontal dan vertikal yang diatur oleh komputer. Ketika material keluar dari nozzle, material tersebut akan mengeras.</h3></li>
-                            <li id="kiri"><h3 class="roman" id="TeksCharles">7. Semua aktivitas 3D Printing kebanyakan akan menggunakan STL File</h3></li>
-                            <li id="kanan"><h3 class="roman" id="TeksCharles">STL File merupakan format 3D modelling yang membuat 3D Printer melakukan tugasnya dengan nyaman dan efektif untuk memotong objek dari layer pada saat print. Kebanyakan file STL dibuat oleh Computer Aided Design (CAD).</h3></li>
-                    </div>
-                </ul>
-            	</section>
-  				</div>
 
-        <div align="center" class="a">
+<!--bagian Keenam -->
+                <div align="center" class="a">
             <section class ="data2">
-                <ul>
-                    <div class="judul">
-                        <li><h4><i>Kelebihan dan Kekurangan Pada 3D Printing</i></h4></li>
-                    </div>
-                 </ul>
+              			<div class="sp-container">
+												
+														<h2 class="frame-5"><span>Teknik</span> <span>3D</span> <span>Printing</                                              span></h2>
+												</div>
              </section>
              </div>
-       
-        <div align="center" class="a">
+			 
+			 
+			 
+			  <div align="center" class="a">
+            <section class ="data4">
+              			<div class="sp-container-ti">
+												
+														<h2 class="frame-5">
+														
+														<div class="part1">
+														<span>Stereolithogrphy<br /></span>
+														<span>Digital Light Processing<br /> </span>
+														<span>Selective Laser Sintering</span>
+														</div>
+														
+														<div class="part2">
+														<span>Electron Beam Melting<br /></span> 
+														<span>Multi Jet Modelling<br /></span> 
+														<span>Fused Deposition Modelling</span>
+														</div>
+														</h2>
+												</div>
+             </section>
+             </div>
+			 
+<!-- Bagian Ketujuh -->       
+              <div align="center" class="a">
             <section class ="data2">
-                <ul>
-                    <div class="judul">
-                        <li><h1 class="roman" id="Sub">Kelebihan 3D Printing</h1></li>
-                    </div>
+               
+											<div class="sp-container">
+												
+														<h2 class="frame-5"><span>Kelebihan</span> <span>3D</span> <span>Printing</                                              span></h2>
+												</div>
+											
+                 
+             </section>
+             </div>
                 
-                    <div class="judul#tengah">
-                            <li id="kanan"><h3 class="roman" id="TeksCharles">1. Dapat mengerjakan 2 pekerjaan sekaligus yaitu membuat benda sekaligus dapat langsung mewarnai benda tersebut.</h3></li>
-                            <li id="kiri"><h3 class="roman" id="TeksCharles">2. Dapat membuat suatu objek dengan tingkat kerumitan yang tinggi.</h3></li>
-                            <li id="kanan"><h3 class="roman" id="TeksCharles">3. Apabila ada kesalahan gambar pada scanning bisa langsung diperbaiki dan diubah sesuai dengan keinginan kita.</h3></li>
-                            <li id="kiri"><h3 class="roman" id="TeksCharles">4. Lebih mudah digunakan dibandingkan dengan rapid manufaktur lainnya.</h3></li>
-                    </div>
-                </ul>
+				  <div align="center" class="a">
+            <section class ="data4">
+		<div class="sp-container-ti">
+               	<h2 class="frame-5">
+														
+														<div class="part4">
+														<p class="pos1">Membuat Benda Sekaligus<br /></p>
+														<p class="pos2">Membuat Objek Tingkat Tinggi<br /> </p>
+														<p class="pos3">Mudah Digunakan<br /></p>
+														<p class="pos4">Mudah Diubah Sesuai Keinginan</p>
+														</div>		
+														
+				</h2>
+												</div>
             </section>
         </div>
-  <div align="center" class="a">
+		
+<!-- bagian Kedelapan -->
+        <div align="center" class="a">
             <section class ="data2">
-                <ul>
-                    <div class="judul">
-                        <li><h1 class="roman" id="Sub">Kekurangan 3D Printing</h1></li>
-                    </div>
+               
+											<div class="sp-container">
+												
+														<h2 class="frame-5"><span>Kekurangan</span> <span>3D</span> <span>Printing</                                              span></h2>
+												</div>
+											
+                 
+             </section>
+             </div>
                 
+				 <div align="center" class="a">
+            <section class ="data2">
                     <div class="judul#tengah">
                             <li id="kiri"><h3 class="roman" id="TeksCharles">1. Mengurangi daya kreatifitas free hand</h3></li>
                             <li id="kanan"><h3 class="roman" id="TeksCharles">2. Mengurangi tenaga kerja para pengrajin.</h3></li>
@@ -387,11 +363,41 @@
             </section>
   </div>
 
-	 <div align="center" class="a">
+<!-- bagian kesembilan-->
+      <div align="center" class="a">
+            <section class ="data2">
+               
+											<div class="sp-container">
+												
+														<h2 class="frame-5"><span>Hasil</span> <span>3D</span> <span>Printing</                                              span></h2>
+												</div>
+											
+                 
+             </section>
+             </div>
+       
+
+
+ <div align="center" class="a">
         <section class ="data4">
-		
+						<div class="sp-container1">
+							<div id="sliderFrame">
+							<div id="slider">
+							<a href="#"><img src="hasil1.jpg" alt="#htmlcaption1"/></a>
+							<a href="#"><img src="hasil2.jpg" alt="" /></a>
+							<a href="#"><img src="hasil3.jpg" alt="" /></a>
+							<a href="#"><img src="hasil4.jpg" alt="" /></a>
+							<a href="#"><img src="hasil5.jpg" alt=""/></a>							
+							</div>
+							</div>	
+																							
+					</div>		
         </section>  
-	</div>
+</div>
+
+
+ 
+
 
 </article>
     <script src="build/build.js"></script>
@@ -402,5 +408,10 @@ for(i=0; i<quadimages.length; i++) {
   quadimages[i].addEventListener('click', function(){ this.classList.toggle("expanded"); quad.classList.toggle("full") }); 
 }
 	 </script>
+	 
+	
+	 
+	 
 </body>
 </html>
+		
